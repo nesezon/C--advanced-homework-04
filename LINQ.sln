@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 RandomSequence", "3 Rando
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 LINQCars", "2 LINQCars\2 LINQCars.csproj", "{C6762559-AA01-4B9D-B64E-2DDCE66F0575}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4 FitnessCenter", "4 FitnessCenter\4 FitnessCenter.csproj", "{F517AFC1-CBE0-4AB6-964D-D24BA52C5A93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C6762559-AA01-4B9D-B64E-2DDCE66F0575}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6762559-AA01-4B9D-B64E-2DDCE66F0575}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6762559-AA01-4B9D-B64E-2DDCE66F0575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F517AFC1-CBE0-4AB6-964D-D24BA52C5A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F517AFC1-CBE0-4AB6-964D-D24BA52C5A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F517AFC1-CBE0-4AB6-964D-D24BA52C5A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F517AFC1-CBE0-4AB6-964D-D24BA52C5A93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
