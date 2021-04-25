@@ -27,10 +27,15 @@ namespace FitnessCenter {
         }
       };
 
+      // вывод исходных данных
+      foreach (Customer cmr in CustomersList) Console.WriteLine(cmr);
+      Console.WriteLine(new string('-', 10));
+
       int minDuration = CustomersList.Min(cmr => cmr.Duration);
       Customer result = CustomersList.Last(cmr => cmr.Duration == minDuration);
 
       Console.WriteLine($"Минимальная продолжительность: {result.Duration} за {result.Year} год и {result.Month} месяц");
+      Console.ReadKey();
     }
   }
 
@@ -57,5 +62,9 @@ namespace FitnessCenter {
     /// продолжительность занятий (часов)
     /// </summary>
     public int Duration { get; set; }
+
+    public override string ToString() {
+      return $"код клиента: {Code}, год:{Year}, месяц: {Month}, продолжительность занятий: {Duration}";
+    }
   }
 }
